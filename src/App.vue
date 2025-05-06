@@ -1,6 +1,8 @@
 <template>
   <select v-model="selected" @change="onChange">
     <option value="volvo">Volvo</option>
+    <option value="volvo">Volvo 2</option>
+    <option value="volvo">Volvo 3</option>
     <option value="saab">Saab</option>
     <option value="opel">Opel</option>
     <option value="audi">Audi</option>

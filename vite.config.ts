@@ -15,6 +15,15 @@ export default defineConfig({
       }
     },
     outDir: 'dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    watch: {
+      include: 'src/**'
+    }
+  },
+  server: {
+    hmr: true,
+    watch: {
+      usePolling: true
+    }
   }
 })
